@@ -9,7 +9,7 @@ jpush-api-go-client
 
 使用  
 ----------------------------------- 
-   go get github.com/ylywyn/jpush-api-go-client
+   go get https://github.com/lishenmiao/jpush-api-go-client
    
    
 推送流程  
@@ -68,7 +68,7 @@ jpush-api-go-client
 
 	import (
 		"fmt"
-		"github.com/ylywyn/jpush-api-go-client"
+		"github.com/lishenmiao/jpush-api-go-client"
 	)
 
 	const (

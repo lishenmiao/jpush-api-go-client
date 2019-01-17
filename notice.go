@@ -11,6 +11,7 @@ type AndroidNotice struct {
 	Alert     string                 `json:"alert"`
 	Title     string                 `json:"title,omitempty"`
 	BuilderId int                    `json:"builder_id,omitempty"`
+	Intent    map[string]string      `json:"intent,使用intent里的url指定点击通知栏后跳转的目标页面,可选"`
 	Extras    map[string]interface{} `json:"extras,omitempty"`
 }
 
